@@ -14,4 +14,4 @@ sudo apt-get install -y mongodb-org
 echo "mongodb-org hold" | sudo dpkg --set-selections
 
 #Create default data db folder mongo uses
-mkdir -p /data/db
+sudo mkdir -p /data/db
