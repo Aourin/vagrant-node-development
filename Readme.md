@@ -17,7 +17,7 @@ vagrant up
 ```
 echo "MOO, CHEESE, FISHSTICKS"
 ```
-
+### Notes
 Things it will do:
 - Install G++, make, git (init.sh)
 - Install nvm via curl
@@ -26,3 +26,5 @@ Things it will do:
 - Install mongodb
 - Share the development folder to `/web`
 - Echo Moo, Cheese, Fishsticks
+
+If you want to test the node server, go into the `/web/server` directory, do an npm install, and use the npm script `npm run server`.
