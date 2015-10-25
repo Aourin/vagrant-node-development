@@ -14,5 +14,3 @@ nvm alias legacy 0.12
 
 #Install and Update globals
 npm install -g npm
-
-cp /vagrant/configuration/bashrc ~/.bashrc

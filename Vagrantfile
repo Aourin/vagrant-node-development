@@ -24,5 +24,4 @@ Vagrant.configure("2") do |config|
   ### Add NVM and Node
   config.vm.provision "shell", :path => "scripts/node-setup.sh", privileged: false
   config.vm.provision "shell", :path => "scripts/mongo.sh", privileged: false
-
 end
