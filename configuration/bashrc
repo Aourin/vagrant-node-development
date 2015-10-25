@@ -1,0 +1,8 @@
+source ~/.nvm/nvm.sh
+
+#Mongo Commands
+alias mongo:start = "sudo service mongod start"
+alias mongo:stop = "sudo service mongod stop"
+alias mongo:restart = "sudo service mongod restart"
+
+alias mongo = "/usr/bin/mongo"
