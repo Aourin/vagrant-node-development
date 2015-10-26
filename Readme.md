@@ -26,5 +26,14 @@ Things it will do:
 - Install mongodb
 - Share the development folder to `/web`
 - Echo Moo, Cheese, Fishsticks
-
-If you want to test the node server, go into the `/web/server` directory, do an npm install, and use the npm script `npm run server`.
+- 
+### Test Node
+You can check node by doing a few things.
+ - `nvm current` will display the current node version
+ - `node -v` will display the node version as well
+ - Navigate to `/web/server` and use `npm run server` should start an express server running at port `3000`. It'll display your typical 'Hello World' page
+ 
+### Test MongoDB
+- `mongo` cmd will start a connection to the mongo instance running on the vm
+- `sudo service mongod start` will start mongo
+- `sudo service mongod stop` will stop mongo
